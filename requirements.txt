@@ -9,3 +9,4 @@ pyttsx3==2.99
 SpeechRecognition==3.14.3
 typing_extensions==4.15.0
 Werkzeug==3.0.3
+gunicorn==22.0.0
