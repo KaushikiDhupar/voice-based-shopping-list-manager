@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voice Shopping Assistant</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="title">🛒 Voice Shopping Assistant</div>
+      <div class="badge">Multilingual Voice • NLP • Suggestions</div>
+    </div>
+
+    <div class="grid" style="margin-top:16px">
+      <div class="card">
+        <div class="row" style="justify-content: space-between;">
+          <div class="row">
+            <select id="lang" title="Language">
+              <option value="en-US">English (US)</option>
+              <option value="en-IN">English (India)</option>
+              <option value="hi-IN">Hindi (भारत)</option>
+              <option value="es-ES">Español</option>
+              <option value="fr-FR">Français</option>
+            </select>
+            <button id="mic" class="btn" type="button">🎤 Speak to add,remove or search</button>
+          </div>
+          <div id="status" class="kv">Ready.</div>
+        </div>
+
+        <form id="commandForm" class="row" style="margin-top:10px">
+          <input id="transcript" class="input" placeholder='Try: "Add 2 bottles of water" or "Remove milk" or "Find toothpaste under 5"' />
+          <button class="btn" type="submit">Submit</button>
+        </form>
+
+        <div id="toast" class="toast" style="margin-top:10px">Say or type a command to begin.</div>
+      </div>
+
+      <div class="card">
+        <div style="font-weight:700; margin-bottom:8px;">🔎 Search manually </div>
+        <form id="searchForm" class="row">
+          <input id="q" class="input" placeholder="Search item (e.g., organic apples)" />
+          <input id="brand" class="input" placeholder="Brand (optional)" />
+          <input id="max" class="input" type="number" min="0" step="0.01" placeholder="Max price (optional)" />
+          <button class="btn" type="submit">Search</button>
+        </form>
+        <ul id="searchResults" class="list" style="margin-top:10px"></ul>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:16px">
+      <div class="card">
+        <div style="font-weight:700; margin-bottom:8px;">📋 Shopping List</div>
+        <ul id="list" class="list"></ul>
+      </div>
+      <div class="card">
+        <div style="font-weight:700; margin-bottom:8px;">✨ Smart Suggestions</div>
+        <ul id="suggestions" class="list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

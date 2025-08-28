@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Milk",
+    "brand": "DairyPure",
+    "category": "dairy",
+    "price": 2.99
+  },
+  {
+    "id": 2,
+    "name": "Almond Milk",
+    "brand": "AlmonDaze",
+    "category": "dairy",
+    "price": 3.49
+  },
+  {
+    "id": 3,
+    "name": "Apples",
+    "brand": "OrchardBest",
+    "category": "produce",
+    "price": 1.99
+  },
+  {
+    "id": 4,
+    "name": "Bananas",
+    "brand": "Tropic",
+    "category": "produce",
+    "price": 0.49
+  },
+  {
+    "id": 5,
+    "name": "Bread",
+    "brand": "BakeHouse",
+    "category": "bakery",
+    "price": 2.49
+  },
+  {
+    "id": 6,
+    "name": "Toothpaste",
+    "brand": "FreshSmile",
+    "category": "personal_care",
+    "price": 4.5
+  },
+  {
+    "id": 7,
+    "name": "Organic Apples",
+    "brand": "GreenOrchard",
+    "category": "produce",
+    "price": 2.49
+  },
+  {
+    "id": 8,
+    "name": "Water (bottle)",
+    "brand": "PureH2O",
+    "category": "beverages",
+    "price": 0.99
+  },
+  {
+    "id": 9,
+    "name": "Greek Yogurt",
+    "brand": "DairyPure",
+    "category": "dairy",
+    "price": 1.25
+  },
+  {
+    "id": 10,
+    "name": "Dark Chocolate",
+    "brand": "CocoaPeak",
+    "category": "snacks",
+    "price": 2.25
+  }
+]
