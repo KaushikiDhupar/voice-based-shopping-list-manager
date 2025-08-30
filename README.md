@@ -1,3 +1,6 @@
+## 🌐 Live Demo  
+👉 [Click here to try the Voice Command Shopping Assistant](https://your-hosted-site-link.com)
+
 # 🛒 Voice Command Shopping Assistant  
 
 A **voice-based shopping list manager** with **smart suggestions** and **natural language support**.  
